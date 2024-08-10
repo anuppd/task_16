@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Signika", sans-serif;
+}
+
+.cur {
+    cursor: pointer;
+}
+
+nav {
+    width: 100vw;
+    height: 6vh;
+    background-color: #e7f0f5;
+    display: flex;
+    justify-content: center;
+}
+
+nav > div {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > div > button {
+    height: 1.8rem;
+    width: 7rem;
+    border-radius: 8px;
+    border: none;
+    background-color: aqua;
+}
+
+nav > div > button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.search {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.search > div {
+    width: 80%;
+}
+
+.search > div > input[type="search"] {
+    height: 1.9rem;
+    width: 15rem;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(243, 236, 236);
+    padding-left: 8px;
+}
+
+.search > div > input[type="submit"] {
+    height: 1.9rem;
+    width: 6rem;
+    border: none;
+    border-radius: 8px;
+    background-color: aqua;
+}
+
+.search > div > input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.search > div > p{
+    padding-top: 10px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-wrapper1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card-wrapper2 {
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: rgb(226, 227, 226);
+    height: 170px;
+    width: 274px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.card > p {
+    padding-bottom: 10px;
+}
